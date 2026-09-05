@@ -42,3 +42,7 @@ h3, .h3 {
 h4, .h4 {
   @include fluid-text(20, 18);
 }
+
+::selection {
+  background-color: var(--color-accent);
+}
